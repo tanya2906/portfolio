@@ -1,0 +1,593 @@
+
+        body{
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            /*font-family: monospace;
+            /*background-color: #00000000;*/
+        }
+        .t_icon{
+            height: 5vw;
+            top:1rem;
+            left: 2rem;
+            position: absolute;
+        }
+        #header1
+        { 
+            z-index:5;
+            position: fixed;
+            width: 100%;
+           /* border: 2px solid black;*/
+            display: flex;
+            justify-content: end;
+            align-items: flex-end;
+            padding: 1vw;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            background-color: white;
+        }
+        .barContainer{
+            /* border: 2px solid black;*/
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            padding-right: 2.5vw;
+        }
+        .bar{
+            width: 1.5rem;
+            height: .07rem;
+            background-color: black;
+             border: 2px solid black;
+             margin-bottom: 0.5rem;
+        }
+        #header2{
+            z-index:5;
+            position: fixed;
+            overflow: hidden;
+            background-color: black;
+            display: none;
+            color: white;
+            width:100%;
+           /* width:100%;
+            margin-top: 0;*/
+            
+        }
+        #header2DIV{
+            display: inline;
+           
+            
+        }
+        #homeBar{
+           /* border: 2px solid rgb(253, 251, 251);*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem;
+        }
+        .barItem{
+            /*border: 2px solid rgb(253, 251, 251);*/
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            /*margin-left: 8vw;
+            margin-right: 8vw;*/
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+        #close{
+            height: 1.5rem;
+            margin-top: 1rem;
+        }
+        #exit{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*border: 2px solid rgb(253, 251, 251);*/
+        }
+        .sidebar{
+            height: 2rem;
+            margin-bottom: 2rem;
+            
+        }
+        #sidebarDIV{
+            z-index:2;
+            position: fixed;
+            right: 0;
+            top: 45%;
+            overflow: hidden;
+           /* border: 2px solid black;*/
+           float: right;
+            padding-right: 1rem;
+            
+        }
+       .myPHOTO{
+        width: 100%;
+        
+       }
+        #tanya{
+            /* border: 2px solid black;*/
+            margin-bottom: 10vw;
+            width: 100%;
+            
+        }
+        
+        .nametanya{
+            color: white;
+            font-size:6.5vw;
+            font-weight:lighter;
+            text-align: center;
+            top: 31.5vw;
+            left: 35vw;
+            position: absolute;
+            
+        }
+        main{
+            z-index:1;
+            /* border: 2px solid black;*/
+        }
+        .maindiv{
+            /* border: 2px solid black;*/
+            display: inline;
+            justify-content: center;
+            align-items: center;
+
+            /*display: inline;*/
+            
+        }
+        .maincontent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid black;*/
+        }
+        .latestPhotos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid black;*/
+        }
+        .box1{
+            z-index: 2;
+            /* border: 2px solid black;*/
+            height: 12rem;
+            width: 54.5rem;
+            
+            text-align: center;
+            padding-top: 2rem;
+            font-size: 4rem;
+            font-weight: lighter;
+            background-color: rgb(0, 0, 0);
+            color: rgb(250, 249, 249);
+            margin-top: -7rem;
+        }
+        .box2{
+            z-index: 1;
+            background-color: rgba(11, 11, 11, 0.122); 
+            
+            height: 35vw;
+            width: 80vw;
+            margin-top: 15rem;
+            
+        }
+        .photodiv{
+            height: 30vw;
+            width: 80vw;
+            margin-top: 2.5rem;
+            /* border: 2px solid black;*/
+            display: flex;
+        }
+        .photo1{
+            
+            height: 19rem;
+            width: 24.4rem;
+            /* border: 2px solid black;*/
+            margin-right: 1rem;
+        }
+        .photo2{
+            
+            height: 19rem;
+            width: 24.4rem;
+            /* border: 2px solid black;*/
+        }
+        .control{
+            color: black;
+            /* border: 2px solid black;*/
+            padding-top: 7rem;
+            
+        }
+        .me{
+            padding: 1rem;
+            /* border: 2px solid black;*/
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           margin-top: 25vw;
+        }
+        .box3{
+            /* border: 2px solid black;*/
+            background-color: rgba(11, 11, 11, 0.122);
+            height:9vw;/* 7rem;*/
+            width: 50rem;
+        }
+        .thisME{
+            /* border: 2px solid black;*/
+            margin-top: -5rem;
+            margin-left: -3rem;
+            background-color: black;
+            color: white;
+            height: 8rem;
+            width: 15rem;
+            text-align: center;
+            padding-top: 2rem;
+            font-size: 3rem;
+            font-weight: lighter;
+        }
+        .content{
+            /* border: 2px solid black;*/
+            font-size: larger;
+        }
+        .meimg{
+            height: 30rem;
+            margin-left: 60%;
+            margin-top: -50%;
+        }
+        .quote{
+            font-size: xx-large;
+            font-weight: bolder;
+            margin-top: 3rem;
+        }
+        .con{
+            margin: 2rem;
+            margin-left: -3rem;
+            /* border: 2px solid black;*/
+        }
+        .insta{
+            
+            width: 100%;
+            /*border: 2px solid rgb(211, 22, 22);*/
+            margin-top: 40rem;
+        }
+        .instaFIRSTdiv{
+            display: flex;
+            justify-content: center;
+            font-size: 3.5rem;
+            /* border: 2px solid black;*/
+        }
+       /* #instaPHOTOS{
+             border: 2px solid black;
+        }
+        */
+        .IPS{
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid black;*/
+            margin: 3rem;
+        }
+        .IP{
+            /*height: 10rem;*/
+            width: 12rem;
+            margin-left: 0.4rem;
+            margin-right: 0.4rem;
+            /* border: 2px solid black;*/
+        }
+        .moreINSTA{
+            /*border: 2px solid black;*/
+            display: flex;
+            justify-content: center;
+            
+        }
+        #buttonMORE{
+            font-size:large;
+            padding: 0.5rem;
+        }
+        .contact{
+           /* width: 100%;*/
+            /*border: 2px solid rgb(47, 123, 195);*/
+            margin-top: 10rem;
+            
+            padding: 1rem;
+            background-color: rgba(11, 11, 11, 0.122);
+            text-align: center;
+        }
+        .conme{
+           /* border: 2px solid rgb(175, 195, 47);*/
+            font-size: 4rem;    
+        }
+        .formDIV{
+            /*border: 2px solid rgb(231, 26, 26);*/
+            display: flex;
+            justify-content:center;
+            margin: 10rem;
+            margin-top: 5rem;
+        }
+        /*.form{
+            border: 2px solid rgb(53, 211, 25);
+           
+        }*/
+        .formIN{
+            color: white;
+            background-color: rgb(0, 0, 0);
+            margin: 0.5rem;
+            
+        }
+        #message{
+            padding-bottom: 3rem;
+        }
+       @media only screen and (max-width:1500px){
+        .box2{
+            margin-top: 14rem;
+        }
+        .t_icon{
+            height: 4rem;
+        }
+        }
+        @media only screen and (max-width:1400px){
+            .box2{
+                margin-top: 13rem;
+            }
+            .t_icon{
+                height: 3.7rem;
+            }
+        }
+        @media only screen and (max-width:1380px){
+        
+        .photo1{
+            
+            height: auto;
+            width: 35.4vw;
+           
+            margin-right: 1.5vw;
+        }
+         .photo2{
+            height: auto;
+            width: 35.4vw;
+            
+        }
+        .control{
+            padding-top: 10vw;
+        }
+        }
+        @media only screen and (max-width:1300px){
+            .t_icon{
+                height: 3.6rem;
+            }
+            .box2{
+                margin-top: 12rem;
+            }
+        }
+        @media only screen and (max-width:1250px){
+            .box1{
+                height: 19vw;
+                width: 80vw;
+                font-size: 6.5vw;
+            } /*
+            .thisME{
+                border: 2px solid rgb(90, 208, 39);
+                margin-top: -8vw;
+                margin-left: -5vw;
+               
+                height: 13vw;
+                width: 25vw;
+                
+                padding-top: 3vw;
+                font-size: 5vw;
+                
+            } */
+        }
+        @media only screen and (max-width:1200px){
+            
+            .t_icon{
+                height: 3.5rem;
+            }
+            .thisME{
+                padding-top: 3vw;
+                margin-left: 0rem;
+                font-size: 5vw;
+                height: 13vw;
+                width: 25vw;
+            }
+            .con{
+                margin-left: 0rem;
+            }
+            .box2{
+                margin-top: 11rem;
+            }
+            .barItem{
+                margin-left: 7vw;
+                margin-right: 7vw;
+            } 
+            .meimg{
+                margin-left: 55vw;
+                margin-top: -24.9rem;
+            }
+        }
+        @media only screen and (max-width:1160px){
+            .IP{
+                width: 20vw;
+            }
+            .IPS{
+                margin: 5vw;
+            }
+            .insta{
+                margin-top: 70vw;
+            }
+            .contact{
+                margin-top:15vw ;
+                
+            }
+            
+        #buttonMORE{
+            font-size:2vw;
+            padding: 1vw;
+        }
+        .conme{
+            font-size: 7vw;
+        }
+        .formDIV{
+            margin: 5vw;
+        }
+        }
+        @media only screen and (max-width:1100px){
+            .t_icon{
+                height: 3.4rem;
+            }
+            .box2{
+                margin-top: 10rem;
+            }
+           /* .barItem{
+                
+                margin-left: 6.5vw;
+                margin-right: 6.7vw;
+            }*/
+        }
+        @media only screen and (max-width:1000px){
+            .t_icon{
+                height: 3.4rem;
+            }
+            .instaFIRSTdiv{
+                font-size: 7vw;
+            }
+            .box2{
+                margin-top: 9rem;
+            }
+           /* .barItem{
+                margin-left: 6vw;
+                margin-right: 6.6vw;
+            }*/
+        }
+        @media only screen and (max-width:900px){
+            
+            .box2{
+                margin-top: 8rem;
+            }
+            .barItem{
+                margin-left: 4.5vw;
+                margin-right: 4.5vw;
+            }
+            .meimg{
+                display: none;
+             }
+             
+        } 
+        /*@media only screen and (max-width:830px){
+            .meimg{
+           display: none;
+        }
+    }*/
+        @media only screen and (max-width:800px){
+            .t_icon{
+                height: 3.2rem;
+            }
+            .barItem{
+                margin-left: 4vw;
+                margin-right: 4vw;
+            }
+            .thisME{
+                margin-top: -4rem;
+               /* border: 2px solid rgb(90, 208, 39);
+                */
+            }
+            .quote{
+                font-size: 5vw;
+            }
+        }
+        @media only screen and (max-width:700px){
+            .t_icon{
+                height: 3.2rem;
+            }
+            .barItem{
+                margin-left: 3vw;
+                margin-right: 3vw;
+            }
+            .insta{
+                margin-top: 80vw;
+            }
+            .thisME{
+                margin-top: -3.5rem; 
+            }
+        }
+        @media only screen and (max-width:600px){
+            .t_icon{
+                height: 3rem;
+            }
+            .barItem{
+                margin-left: 2vw;
+                margin-right: 2vw;
+            }
+            .con{
+                font-size:1.01rem;
+            }
+            .thisME{
+                margin-top: -3rem; 
+            }
+        } 
+        @media only screen and (max-width:550px){
+            .con{
+                font-size:0.9rem;
+            }
+        }
+        @media only screen and (max-width:500px){
+            .t_icon{
+                height: 2.9rem;
+                left: 1rem;
+            }
+            .barItem{
+                margin-left: 1.5vw;
+                margin-right: 1.5vw;
+            }
+            .thisME{
+                margin-top: -2.5rem; 
+            }
+        }
+        
+        @media only screen and (max-width:450px){
+            .t_icon{
+                height: 2.6rem;
+            }
+            #homeBar{
+                /*border: 2px solid rgb(253, 251, 251);*/
+                display: inline;
+                justify-content: center;
+                align-items: center;
+                margin: 2rem;
+            }
+            .con{
+                font-size:xx-small;
+            }
+            .IP{
+                margin-left: 1px;
+                margin-right: 1px;
+            }
+            
+            #sidebarDIV{
+                display: none;
+            }
+           /* .barItem{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 2vw;
+                margin-bottom: 2vw;
+            }*/
+        }
+        @media only screen and (max-width:400px){
+            .t_icon{
+                height: 2.5rem;
+            }
+            .me{
+                margin-top: 7rem;
+            }
+            .quote{
+                margin-top: 2rem;
+            }
+            .con{
+                margin-top: 1rem;
+            }
+            .insta{
+                margin-top: 15rem;
+            }
+            .thisME{
+                margin-top: -2rem; 
+            }
+        }
+       
+        

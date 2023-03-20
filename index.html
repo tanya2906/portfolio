@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="t.png" type="image/x-icon">
+    <link rel="stylesheet" href="indexCSS.css">
+</head>
+<body>
+   
+    <!--header 1-->
+    
+    <header id="header1">
+        <img src="t.png" alt="T" class="t_icon">
+        <img src="s.png" alt="S" class="t_icon">
+        <div class="barContainer" id="hpaic">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    
+    <!--header 2-->
+    
+    <header id="header2">
+        <div id="header2DIV">
+            <div id="exit"><img src="close.png" alt="close" id="close"></div>
+            <div id="homeBar">
+                <div class="barItem" id="bar_home">Home</div>
+                <div class="barItem" id="bar_photo">Photos</div>
+                <div class="barItem" id="bar_about">About</div>
+                <div class="barItem" id="bar_insta">Insta</div>
+                <div class="barItem" id="bar_contact">Contact</di>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div  id="sidebarDIV">
+            <div><img src="email.png" alt="@" class="sidebar" id="side_email"></div>
+            <div><img src="instagram.png" alt="i" class="sidebar" id="side_insta"></div>
+        </div>
+        <div id="tanya">
+            <img src="tanya.jpg" alt="tanya" class="myPHOTO">
+            <h1 class="nametanya"><strong class="strong">TANYA</strong> SAINI </h1> 
+        </div>
+            
+        <div class="maindiv" >
+            <!--latest photos-->
+            
+            <div class="maincontent" id="mc">
+
+                <div class="box2" >
+                    <div class="latestPhotos">
+                        <div class="box1"><strong>LATEST</strong> PHOTOS
+                            
+                            <div class="photodiv">
+                                <div class="control"  id="previous"><</div>
+                                <div ><img src="img1.jpg" alt="img1" class="photo1"></div>
+                                <div ><img src="img2.jpg" alt="img2" class="photo2"></div>
+                                <div class="control" id="next">></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="me" id="me">
+                <div class="box3">
+                    <div class="thisME"><strong>THIS IS </strong><br>ME</div>
+                    <div class="content">
+                        <div class="quote">Live-Code-Music</div>
+                        <div class="con"><article>
+                            Tanya has developed a deep affection for <br>
+                            the captivating beauty of the world and <br> 
+                            has tried to capture some of its precious <br>
+                            moments. She currently resides in Himachal, <br>
+                            where she enjoys a simple life surrounded <br>
+                            by the peaceful beauty of nature. Tanya <br>
+                            engages in photography as a source of <br>
+                            personal fulfillment and occasionally <br>
+                            engages in coding and developing mini- <br>
+                            projects. She aims to remain faithful to <br>
+                            her heart and continue pursuing her passions.
+                        </article></div>
+                        <div><img src="me.jpg" alt="me" class="meimg"></div>
+                    </div>
+                    
+                </div>
+                </div>
+                <div class="insta" id="insta">
+                    <div class="instaFIRSTdiv"><strong>#TANYASAINI</strong>&nbspON INSTA</div>
+                    <div id="instaPHOTOS">
+                        <div class="IPS">
+                            <img src="img1.jpg" alt="img1" class="IP">
+                            <img src="img2.jpg" alt="img2" class="IP">
+                            <img src="img3.jpg" alt="img3" class="IP">
+                            <img src="img4.jpg" alt="img4" class="IP">
+                        </div>
+                    </div>
+                    <div class="moreINSTA"><button id="buttonMORE">More</button></div>
+                </div>
+                <div class="contact" id="contact">
+                    <div class="conme"><strong>CONTACT</strong>&nbspME</div>
+                    <div class="formDIV">
+                        <form action="" class="form">
+                            <input type="text" placeholder="NAME" id="name" class="formIN"><br>
+                            <input type="email" placeholder="E-MAIL" id="email" class="formIN"><br>
+                            <input type="number" placeholder="PHONE NO." id="phone" pattern="[0-9]{10}" class="formIN"> <br>
+                            <input type="text" placeholder="MESSAGE" id="message" class="formIN"><br>
+                            <input type="submit" value="SEND" class="formIN">
+                        </form>
+                    </div>
+                    <p >Design by tanyasaini</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    
+    <script type="text/javascript" src="script.js">
+        
+    </script>
+</body>
+</html>
